@@ -4,7 +4,7 @@
 
 ### Project Setup
 
-Download the project files and run the below command to install composer dependencies.
+Download the project files and run the below command to install composer dependencies.<br>
 ```php composer.phar install```
 
 Import the Mysql DB from the below path to your mysql server.<br>
