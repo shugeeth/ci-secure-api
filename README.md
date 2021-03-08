@@ -7,10 +7,10 @@
 Download the project files and run the below command to install composer dependencies.
 ```php composer.phar install```
 
-Import the Mysql DB from the below path to your mysql server.
+Import the Mysql DB from the below path to your mysql server.<br>
 ```db/ci-api-db.sql```
 
-Change the below code in the .env file with respect to mysql server.
+Change the below code in the .env file with respect to mysql server.<br>
 ```
 database.default.hostname = localhost
 database.default.database = ci-api-db
@@ -19,14 +19,14 @@ database.default.password =
 database.default.DBDriver = MySQLi
 ```
 
-Valid user credentials are in the below path.
+Valid user credentials are in the below path.<br>
 ```db/sample-data.txt```
 
-In postman use the below link to get the access token by passing form-data under body using one of the credentials given above, as email and password.
+In postman use the below link to get the access token by passing form-data under body using one of the credentials given above, as email and password.<br>
 ```http://localhost:8080/auth/login```
 
-With the token received in the above login, follow the below link with a authorization bearer token in the header.
+With the token received in the above login, follow the below link with a authorization bearer token in the header.<br>
 ```http://localhost:8080/client```
 
-The token expires automatically after 1hr, you can also change this in the .env file by editing the line in milliseconds.
+The token expires automatically after 1hr, you can also change this in the .env file by editing the below code.<br>
 ``` JWT_TIME_TO_LIVE=3600 ```
