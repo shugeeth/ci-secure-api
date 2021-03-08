@@ -1,0 +1,5 @@
+Adam - adam@example.com - lion@123
+Brian - brian@example.com - tiger@123
+Catherine - cat@example.com - eagle@123
+Dave - dave@example.com - hawk@123
+Esther - esther@example.com - elephant@123
